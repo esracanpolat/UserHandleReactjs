@@ -1,0 +1,68 @@
+body{
+    margin: 15px;
+}
+.user-list{
+    margin-top:10px;
+    margin-left: 100px;
+}
+.user-detail{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+.body-middle{
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ top:10vh;
+ height:82vh ;
+ width: 100vw;
+}
+.table td, .table th {
+    padding: 4px !important;
+}
+
+.table-size{
+    height: 60vh;
+    overflow-y: scroll ;
+  }
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    top:0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(203, 203, 203, 0.283);
+}
+.footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    bottom:0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(203, 203, 203, 0.283);
+}
+.form{
+    background-color: rgba(225, 225, 225, 0.338);
+    border-radius: 10px;
+    height: 40vh;
+    width: 50vw;
+    
+}
+.form-input{
+    border:rgba(225, 225, 225, 0.338);
+    border-radius: 5px;
+    margin-top: 5px;
+    color:black;
+    width: 100%;
+}
+.form-input:focus-visible{
+    outline:none !important;
+}
